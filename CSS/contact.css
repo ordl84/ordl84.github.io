@@ -1,11 +1,11 @@
 .contact {
     background-color: white;
     height: 500px;
-    width: 1800px;
+    width: 1300px;
     margin-top: 100px;
 }
 .contact-img {
-    width: 1800px;
+    width: 1300px;
     height: 500px;
     object-fit: cover;
     object-position: bottom;
@@ -16,7 +16,7 @@
     display: table-cell;                /* Így lesz középre igazítható vertikálisan*/
     vertical-align: middle;             /* Igí állítható középre vertikálisan*/
     height: 500px;
-    width: 1800px;
+    width: 1300px;
     opacity: 0.5;
     background-color: var(--dark-beige);
     font-size: 100px;
@@ -26,7 +26,7 @@
 .middle-contact {
     margin: 20px 0 20px 0;
     display: flex;
-    width: 1800px;
+    width: 1300px;
 }
 .left-div {
     flex: 1;
@@ -51,7 +51,7 @@
 .icon {
     display: inline-block;
     font-size: 20px;
-    margin: 10px 20px 20px 300px;
+    margin: 10px 20px 20px 200px;
 }
 .telephone,
 .email,
@@ -62,11 +62,13 @@
 .message-section {
     display: inline-block;
     margin-left: 100px;
+    margin-right: 100px;
 
 }
 .message-section h2 {
     font-size: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 .name-m,
 .email-m {
@@ -76,16 +78,16 @@
 }
 .subject-m {
     display: block;
-    width: 665px;
+    width: 470px;
     height: 150px;
     margin: 10px 0 20px 0
 }
 .btn-message {
     width: 200px;
     height: 50px;
-    margin-left: 220px;
+    margin-left: 140px;
 }
 .map {
-    width: 1800px;
+    width: 1300px;
     height: 600px;
 }
