@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0aec0dbac2.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="page">
@@ -27,12 +31,41 @@
                  <a href="/index.html">
                     <i class="fa fa-solid fa-house"></i>
                  </a>
-                <a href="" class="menu">Rólam</a>
+                <a href="/myself.html" class="menu">Rólam</a>
                 <a href="/price-list.html" class="menu">Árlista</a>
                 <a href="/gallery.html" class="menu">Munkáim</a>
                 <a href="/contact.html" class="menu">Kapcsolat</a>
             </div>
+        </div>
+      </div>
+      
+<div style="text-align:center">
+    <h2>Tabbed Image Gallery</h2>
+    <p>Click on the images below:</p>
+  </div>
+  
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="/img/pics/1.jpg" class="img-responsive image-size" style="width:100%" onclick="myFunction(this);">
     </div>
+    <div class="column">
+      <img src="/img/pics/2.jpg" class="img-responsive image-size" style="width:100%" onclick="myFunction(this);">
     </div>
+    <div class="column">
+      <img src="/img/pics/3.jpg" class="img-responsive image-size" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="/img/pics/4.jpg" class="img-responsive image-size" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+  
+  <script src="/JS/gallery.js"></script>
 </body>
 </html>

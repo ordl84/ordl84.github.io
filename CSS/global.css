@@ -2,10 +2,7 @@
 body {
   overflow-y: scroll;
 }
-.page {
-    padding-left: 300px;
-    padding-right: 300px;
-}
+
 .top-menu {
   height: 55px;
   display: flex;
