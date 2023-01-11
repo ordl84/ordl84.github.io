@@ -1,5 +1,7 @@
 .contact {
-    background-color: white;
+    display: flex;
+}
+.middle-space-section {
     height: 500px;
     width: 1300px;
     margin-top: 100px;
@@ -14,7 +16,7 @@
 .contact-text {
     position: relative;
     display: table-cell;                /* Így lesz középre igazítható vertikálisan*/
-    vertical-align: middle;             /* Igí állítható középre vertikálisan*/
+    vertical-align: middle;             /* Igy állítható középre vertikálisan*/
     height: 500px;
     width: 1300px;
     opacity: 0.5;
@@ -23,18 +25,39 @@
     color: var(--light-beige);
     text-align: center;
 }
+.left-space {
+    width: 300px;
+    left: 0;
+    top: 100px;
+}
+.right-space {
+    width: 300px;
+    right: 0;
+    top: 100px;
+}
 .middle-contact {
-    margin: 20px 0 20px 0;
     display: flex;
-    width: 1300px;
+}
+.middle-contact-left {
+    width: 300px;
+    left: 0;
+    top: 1000px;
+}
+.middle-contact-right {
+    width: 305px;
+    right: 0;
+    top: 1000px;
+}
+.middle-contact-middle {
+    display: flex;
 }
 .left-div {
     flex: 1;
     background-color: white;
     padding-bottom: 50px;
-    margin-right: 10px;
+    margin: 20px 10px 10px 10px;
     border: 1px solid rgba(128, 128, 128, 128, 0.4);
-    box-shadow: 3px 3px gray;
+    box-shadow: 1px 3px rgb(189, 188, 188);
 }
 .left-div h2 {
     text-align: center;
@@ -44,9 +67,9 @@
 .right-div {
     flex: 1;
     background-color: rgb(226, 223, 223);
-    margin-left: 10px;
+    margin: 20px 10px 10px 10px;
     border: 1px solid rgba(128, 128, 128, 128, 0.4);
-    box-shadow: 3px 3px gray;
+    box-shadow: 1px 3px rgb(189, 188, 188);
 }
 .icon {
     display: inline-block;
@@ -87,7 +110,24 @@
     height: 50px;
     margin-left: 140px;
 }
+.google-maps {
+    display: flex;
+    margin-top: 20px;
+}
+.third-left {
+    width: 300px;
+    left: 0;
+    top: 2000px;
+}
+.third-middle {
+    flex: 1;
+}
 .map {
     width: 1300px;
     height: 600px;
+}
+.third-right {
+    width: 300px;
+    right: 0;
+    top: 2000px;
 }
