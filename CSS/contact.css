@@ -50,6 +50,8 @@
 }
 .middle-contact-middle {
     display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .left-div {
     flex: 1;
@@ -73,14 +75,14 @@
 }
 .icon {
     display: inline-block;
-    font-size: 20px;
-    margin: 10px 20px 20px 200px;
+    font-size: 30px;
+    margin: 10px 20px 20px 135px;
 }
 .telephone,
 .email,
 .location {
     display: block;
-    font-size: 20px;
+    font-size: 30px;
 }
 .message-section {
     display: inline-block;

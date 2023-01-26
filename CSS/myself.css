@@ -1,0 +1,10 @@
+.myself-pic {
+    float: left;
+    width: auto;
+    height: 300px;
+    margin: 10px 25px 0 0;
+}
+.myself {
+    font-size: 30px;
+    margin: 200px 200px 200px 200px;
+}
