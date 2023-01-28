@@ -45,10 +45,10 @@ body {
   padding: 15px;
 }
 .logo {
-  background-color: white;
+  margin-top: 5px;
   padding: 8px 8px 8px 8px;
   border-radius: 20px;
-  width: 103px;
+  width: 113px;
 }
 .right-section a {
   padding: 14px;
