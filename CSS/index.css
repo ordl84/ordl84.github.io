@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     border: 1px solid rgb(153, 142, 142);
+    opacity: 0.8;
 }
 .picture {
     display: flex;
@@ -26,8 +27,8 @@
 .in-block-text {
     background-color: var(--light-beige);
     position: absolute;
-    bottom: 50px;
-    left: 50px;
+    bottom: 140px;
+    left: 80px;
     max-width: 1030px;
     min-width: 300px;
     width: 1fr;
@@ -130,6 +131,7 @@
 }
 .service-location {
     margin-right: 0;
+    font-size: 1.4vw;
 }
 .listing {
     list-style-type :square;
