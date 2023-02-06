@@ -110,14 +110,15 @@
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+/*.numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   bottom: 40px;
+  
 }
-
+*/
 img {
   margin-bottom: -4px;
   max-height: 750px;
@@ -150,4 +151,9 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gallery-main-title {
+  margin: 100px 0 0 0;
+  text-align: center;
+  font-size: 3vw;
 }
