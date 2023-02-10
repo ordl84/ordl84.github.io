@@ -157,3 +157,20 @@ img.hover-shadow {
   text-align: center;
   font-size: 3vw;
 }
+@media (max-width: 500px) {
+  .left-section {
+    display: none;
+  }
+  .middle-section {
+    display: none;
+  }
+  .right-section {
+      font-size: 3vw;
+  }
+  .gallery-left {
+    width: 15%;
+  }
+  .gallery-right {
+    width: 15%;
+  }
+}

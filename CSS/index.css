@@ -153,3 +153,33 @@
     max-width: 18vw;
     max-height: 18vw;
 }
+@media (max-width: 500px) {
+    .left-section {
+      display: none;
+    }
+    .middle-section {
+      display: none;
+    }
+    .right-section {
+        font-size: 3vw;
+        margin-right: 1000px;
+    }
+    .picture-left {
+        width: 5%;
+    }
+    .picture-right {
+        width: 5%;
+    }
+    .text-box {
+        width: 400px;
+    }
+    .main-picture {
+        width: 400px;
+    }
+    .services,
+    .request-for,
+    .service-location {
+        height: 200px;
+        font-size: 3vw;
+    }
+  }

@@ -9,3 +9,20 @@
     font-size: 2vw;
     margin: 200px 200px 200px 200px;
 }
+@media (max-width: 500px) {
+    .myself {
+        font-size: 4vw;
+        width: 300px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .left-section {
+      display: none;
+    }
+    .middle-section {
+      display: none;
+    }
+    .right-section {
+        font-size: 3vw;
+    }
+  }

@@ -53,3 +53,21 @@ table {
     background-color: var(--dark-beige);
     color: var(--light-beige);
   }
+  @media (max-width: 500px) {
+    .left-section {
+      display: none;
+    }
+    .middle-section {
+      display: none;
+    }
+    .right-section {
+        font-size: 3vw;
+        margin-right: 1000px;
+    }
+    .picture-left {
+        width: 5%;
+    }
+    .picture-right {
+        width: 5%;
+    }
+  }
